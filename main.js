@@ -4,6 +4,8 @@ window.onload = function() {
 	const socialmedia = document.querySelector('.ct-socialmedia')
 	const header = document.querySelector('.ct-header')
 	const navbar = document.querySelector('.ct-navbar')
+	const nameB = document.querySelector('.name-banner')
+	const bannerN = document.querySelector('.ct-banner-name')
 
 	window.onscroll = function() {
 		console.log('scrollie')
@@ -25,5 +27,18 @@ window.onload = function() {
 			navbar.classList.remove('to-top')
 		}
 	}
+
+	bannerN.onmouseover = function() {
+		bannerN.classList.toggle('hide')
+		nameB.classList.toggle('hide')
+	}
+
+	bannerN.onmouseout= function() {
+		bannerN.classList.toggle('hide')
+		nameB.classList.toggle('hide')
+	}
+
+
+
 
 }
