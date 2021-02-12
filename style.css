@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@font-face {
+	font-family: 'bebasregular';
+	src: url('bebasregular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'helvetica';
+	src: url('helvetica.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(img/bg.png);
+	background-size: cover;
+	background-position: center;
+	background: #ffffff;
+	overflow-x: hidden; 
+}
+
+.overflow {
+	overflow-y: hidden; 
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	transition: 0.5s linear
+}
+
+
+
+.ct-header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 15%;
+	align-items: center;
+	transition: 0.3s linear;
+	background: white;
+	position: fixed;
+	z-index: 1
+}
+
+.logo {
+	background: black;
+  height: 80%;
+  width: 10%;
+  left: 0%;
+  position: absolute;
+  margin-left: 2%;
+  background: url(img/logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.2s linear
+}
+
+.ct-socialmedia {
+	width: 80%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 2%;
+  align-items: center;
+}
+
+.separator-sc {
+	background: #bbb;
+	width: 20%;
+	height: 0.3%
+}
+
+.separator-l {
+	width: 0.05%;
+  height: 80%;
+  background: #bbb;
+  left: 15%;
+  position: absolute;
+}
+
+.ct-navbar {
+	width: 80%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 2%;
+  align-items: center;
+}
+
+.socialmedia {
+  background: beige;
+  height: 55%;
+  width: 5%;
+}
+
+.socialmedia-ig {
+	background: url(img/ig.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.socialmedia-wp {
+	background: url(img/wp.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.socialmedia-fb {
+	background: url(img/fb.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ct-body {
+	width: 100%;
+	height: 1500px;
+	background: white;
+}
+
+.button {
+	font-family: helvetica;
+	height: 100%;
+	width: 25%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12pt;
+	align-items: center;
+	transition: 0.2s linear;
+	cursor: pointer;
+	color: #bbbbbb;
+	letter-spacing: 1pt;
+}
+
+.button:hover {
+	color: #5d5d5d;
+	font-size: 12.5pt;
+}
+
+.separator {
+	width: 0.1%;
+	height: 60%;
+	background: #bbb;
+	opacity: 1;
+}
+
+.hide {
+	opacity: 0
+}
+
+.to-top {
+right: auto;
+height: 100%;
+}
+
+.shadow {
+	-webkit-box-shadow: 0px 0px 7px -3px #737373;
+	height: 7.5%
+}
+
+.ct-banner {
+	background: lightgreen;
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	top: 15%;
+	background: url(img/banner.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+

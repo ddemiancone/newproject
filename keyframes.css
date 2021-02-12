@@ -1,0 +1,7 @@
+@keyframes logodos {
+	50% { transform: rotateY(90deg); opacity: 0; }
+}
+
+@keyframes logo {
+	40% { transform: rotateY(-90deg); opacity: 1 }
+}
